@@ -15,7 +15,7 @@ jobs:
       with:
         switches: -avzr --delete --exclude="" --include="" --filter=""
         path: .
-        remote_path: ~/ebird-client
+        remote_path: ~/ebird
         remote_host: 171.226.155.174
         remote_port: 22
         remote_user: demo
