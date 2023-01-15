@@ -27,5 +27,8 @@ jobs:
         username: demo
         password: haibaconga
         port: 22
-        script: pwd
+        script: >
+          cd ebird
+          yarn install
+          yarn dev
   
