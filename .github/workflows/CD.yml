@@ -28,7 +28,7 @@ jobs:
         password: haibaconga
         port: 22
         script: >
-          cd ebird
-          yarn install
+          cd ebird &&
+          yarn install &&
           yarn dev
   
