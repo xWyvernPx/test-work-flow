@@ -29,4 +29,7 @@ jobs:
         port: 22
         script: >
           cd ebird &&
-          yarn install
+          yarn install && 
+          current_date_time="`date "+%Y-%m-%d %H:%M:%S"`"; && 
+          echo $current_date_time >> DEPLOY_LOG.md
+
