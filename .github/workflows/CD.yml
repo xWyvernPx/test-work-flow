@@ -16,15 +16,15 @@ jobs:
         switches: -avzr --delete --exclude="" --include="" --filter=""
         path: ./src
         remote_path: ~/ebird/src
-        remote_host: 171.226.155.174
+        remote_host: 27.65.255.153
         remote_port: 22
-        remote_user: demo
+        remote_user: admin
         remote_key: ${{ secrets.DEPLOY_KEY }}
     - name : Install package
       uses: appleboy/ssh-action@v0.1.7
       with:
-        host: 171.226.155.174
-        username: demo
+        host:  27.65.255.153
+        username: admin
         password: haibaconga
         port: 22
         script: >
